@@ -13,7 +13,12 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Navbar bg="dark" variant="dark" expand="lg">
-      <img src={logo} className="logo" alt="logo" />
+            <Link to="/">
+              <Navbar.Brand> 
+                <img src={logo} className="logo" alt="logo" />
+              </Navbar.Brand>
+            </Link> 
+
             <Container>
               <Link to="/">
                 <Navbar.Brand>Home</Navbar.Brand>
